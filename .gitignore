@@ -1,0 +1,31 @@
+# Arquivos temporários
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+./qmc-venv
+
+# Arquivos de configuração do ambiente virtual
+qmc-venv/
+qmc-venv/
+*.qmc-venv
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados por editores e IDEs
+*.swp
+*.swo
+*.swn
+*.idea/
+*.vscode/
+
+# Pastas e arquivos gerados durante a instalação do pacote
+dist/
+build/
+*.egg-info/
+
+# Arquivos de log
+*.log
