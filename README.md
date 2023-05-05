@@ -19,7 +19,6 @@ cubic_spline_interpolator = CubicSplineInterpolator()
 ```
 Use the instance to perform the interpolation, passing in the required arguments:
 ```
-# Example of cubic spline interpolation
 x_values = [0, 1, 2, 3]
 y_values = [0, 2, 3, 1]
 x = 1.5

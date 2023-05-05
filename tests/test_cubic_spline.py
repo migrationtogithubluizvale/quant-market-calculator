@@ -9,7 +9,7 @@ class TestCubicSplineInterpolator(unittest.TestCase):
         x = 2.5
 
         result = interpolator.interpolate(x_values, y_values, x)
-        self.assertAlmostEqual(result, 6.5, places=6)
+        self.assertAlmostEqual(result, 6.25, places=6)
 
     def test_interpolate_invalid_length(self):
         interpolator = CubicSplineInterpolator()

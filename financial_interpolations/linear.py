@@ -1,7 +1,10 @@
 from financial_interpolations._interpolator import Interpolator
 
 class LinearInterpolator(Interpolator):
-    def interpolate(y0, y1, WD0, WD1, WD):
+    def __init__(self, allow_extrapolation: bool = False):
+        super().__init__(allow_extrapolation)
+        
+    def interpolate(self, y0, y1, WD0, WD1, WD):
         """
         Function that calculates linear interpolation of financial values.
 
