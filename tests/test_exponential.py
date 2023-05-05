@@ -1,5 +1,5 @@
 import unittest
-from quant_market_calculator.interpolations.exponential import ExponentialInterpolator
+from financial_interpolations.exponential import ExponentialInterpolator
 
 class TestExponentialInterpolator(unittest.TestCase):
     def test_interpolate(self):

@@ -1,5 +1,5 @@
 from scipy.interpolate import CubicSpline
-from interpolations._interpolator import Interpolator
+from financial_interpolations._interpolator import Interpolator
 
 class CubicSplineInterpolator(Interpolator):
     def __init__(self, allow_extrapolation: bool = False):

@@ -15,34 +15,15 @@ Import the desired interpolation class and create an instance:
 ``` 
 from interpolations import LinearInterpolator, CubicSplineInterpolator, ExponentialInterpolator
     
-linear_interpolator = LinearInterpolator()
 cubic_spline_interpolator = CubicSplineInterpolator()
-exponential_interpolator = ExponentialInterpolator()
 ```
 Use the instance to perform the interpolation, passing in the required arguments:
 ```
-# Example of linear interpolation
-y0 = 1
-y1 = 2
-WD0 = 0
-WD1 = 252
-WD = 126
-result = linear_interpolator.interpolate(y0, y1, WD0, WD1, WD)
-    
 # Example of cubic spline interpolation
 x_values = [0, 1, 2, 3]
 y_values = [0, 2, 3, 1]
 x = 1.5
 result = cubic_spline_interpolator.interpolate(x_values, y_values, x)
-    
-# Example of exponential interpolation
-y0 = 0.02
-y1 = 0.03
-WD0 = 0
-WD1 = 252
-WD = 126
-WD_prime = 252
-result = exponential_interpolator.interpolate(y0, y1, WD0, WD1, WD, WD_prime)
 ```
 ## Documentation
 For more information on the available classes and methods, please refer to the full documentation on the documentation page.

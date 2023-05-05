@@ -1,5 +1,5 @@
 import unittest
-from quant_market_calculator.interpolations._interpolator import Interpolator
+from financial_interpolations._interpolator import Interpolator
 
 
 class DummyInterpolator(Interpolator):

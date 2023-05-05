@@ -1,5 +1,5 @@
 import unittest
-from quant_market_calculator.interpolations.cubic_spline import CubicSplineInterpolator
+from financial_interpolations.cubic_spline import CubicSplineInterpolator
 
 class TestCubicSplineInterpolator(unittest.TestCase):
     def test_interpolate(self):

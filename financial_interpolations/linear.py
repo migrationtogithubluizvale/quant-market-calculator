@@ -1,4 +1,4 @@
-from interpolations._interpolator import Interpolator
+from financial_interpolations._interpolator import Interpolator
 
 class LinearInterpolator(Interpolator):
     def interpolate(y0, y1, WD0, WD1, WD):

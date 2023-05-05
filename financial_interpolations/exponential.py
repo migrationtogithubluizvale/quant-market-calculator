@@ -1,4 +1,4 @@
-from interpolations._interpolator import Interpolator
+from financial_interpolations._interpolator import Interpolator
 
 
 class ExponentialInterpolator(Interpolator):

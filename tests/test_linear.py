@@ -1,5 +1,5 @@
 import unittest
-from quant_market_calculator.interpolations.linear import LinearInterpolator
+from financial_interpolations.linear import LinearInterpolator
 
 class TestLinearInterpolator(unittest.TestCase):
     def test_interpolate(self):
